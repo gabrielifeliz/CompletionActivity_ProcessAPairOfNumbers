@@ -1,0 +1,59 @@
+Design an algorithm that will prompt the user for the numerical value of two cards. 
+The program will receive the two numbers and display their sum on the screen. 
+If the calculated sum is 21, an asterisk is to be displayed beside the sum.
+
+The program shall end when two zeros are entered.The program shall print a welcome message 
+when it is first started and an goodbye message when it terminates.
+
+Bonus:
+Modify the algorithm to allow the user to enter the face cards as J,Q,K or A. 
+If the user enters J, Q, or K then convert the entered value to 10. 
+If the user enters A then count the value as 11 points.
+
+Bonus Bonus:
+Modify the algorithm to allow the user who receives the A to designate it either as 1 or 11
+------------------------------------------------------------------------------------------------
+
+INPUTS:
+cardNumericalValue1
+cardNumericalValue2
+
+PROCESSING STEPS:
+Display "Welcome" message
+Receive cardNumericalValue1
+Receive cardNumericalValue2
+If cardNumericalValue1 and cardNumericalValue2 don't equal zero,
+Add cardNumericalValue1 and cardNumericalValue2 
+ together to get sumOfCardValues
+If sumOfCardValues equals 21, put asterisk to sumOfCardValues when displayed
+Else, display "Goodbye" message
+
+OUTPUTS
+Welcome message
+sumOfCardValues
+Goodbye message
+
+PSEUDOCODE
+Display "Welcome"
+Initialize sumOfCardValues to zero
+REPEAT
+	Prompt user for cardNumericalValue1
+	Get cardNumericalValue1
+	Prompt user for cardNumericalValue2
+	Get cardNumericalValue2
+	Calculate sumOfCardValues = cardNumericalValue1 + cardNumericalValue2
+	IF sumOfCardValues = 21 
+		Display "21*"
+	ELSE 
+		Display sumOfCardValues
+UNTIL cardNumericalValue1 == 0 AND cardNumericalValue1 == 0 
+
+
+CHECKS
+cardNumericalValue1 = 2, cardNumericalValue1 = 9
+Output should be "11"
+sumOfCardValues = 2 + 9 = 11
+
+cardNumericalValue1 = 9, cardNumericalValue1 = 9
+Output should be "18"
+sumOfCardValues = 9 + 9 = 18
