@@ -60,4 +60,4 @@ cardNumericalValue1 = 9, cardNumericalValue1 = 9
 Output should be:
 Output:
 "Welcome"
-"11"
+"18"
