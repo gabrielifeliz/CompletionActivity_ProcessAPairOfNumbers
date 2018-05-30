@@ -51,9 +51,13 @@ UNTIL cardNumericalValue1 == 0 AND cardNumericalValue1 == 0
 
 CHECKS
 cardNumericalValue1 = 2, cardNumericalValue1 = 9
-Output should be "11"
 sumOfCardValues = 2 + 9 = 11
+Output:
+"Welcome"
+"11"
 
 cardNumericalValue1 = 9, cardNumericalValue1 = 9
-Output should be "18"
-sumOfCardValues = 9 + 9 = 18
+Output should be:
+Output:
+"Welcome"
+"11"
